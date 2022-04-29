@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_login.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2365" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_bienvenidofb.xml" value="0.33" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_login.xml" value="0.26197916666666665" />
         <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_registro.xml" value="0.2545289855072464" />
       </map>

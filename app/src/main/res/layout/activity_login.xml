@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgfondomar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/marnegro" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgbefit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -25,6 +25,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/befit" />
+
+
 
     <TextView
         android:id="@+id/textView"
@@ -41,17 +43,52 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
-        android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:id="@+id/btnregistrarme"
+        android:layout_width="297dp"
+        android:layout_height="62dp"
         android:backgroundTint="@color/blue_button"
         android:onClick="mostrarFormularioRegistro"
         android:text="Registrarme"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.777" />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.277"/>
+
+
+    <Button
+        android:id="@+id/btngmail"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="mostrarFormularioRegistro"
+        android:text="Registrarme con Gmail"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.528" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

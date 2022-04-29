@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BeFit</string>
+
+    <string name="facebook_app_id">570904967729378</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">9b897f6b61d810f7d15ad5617079cdc2</string>
+
+
 </resources>
