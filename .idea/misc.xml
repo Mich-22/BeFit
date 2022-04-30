@@ -8,6 +8,13 @@
         <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_login.xml" value="0.26197916666666665" />
         <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_registro.xml" value="0.2545289855072464" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/activity_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/app_bar_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/content_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/BeFit/app/src/main/res/layout/nav_header_welcome.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
