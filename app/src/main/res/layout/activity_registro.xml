@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:backgroundTint="@color/white"
+    android:foregroundTint="#FFFFFF"
     tools:context=".RegistroActivity">
 
 
@@ -15,9 +16,9 @@
         android:layout_marginLeft="20dp"
 
         android:layout_marginRight="20dp"
-        android:padding="15dp"
         android:background="#B8C3FD"
         android:orientation="vertical"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +36,11 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe tu nombre"
             android:inputType="textPersonName"
-            android:text="Escribe tu nombre" />
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
+
 
         <TextView
             android:id="@+id/textView3"
@@ -49,8 +53,10 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe tu apellido"
             android:inputType="textPersonName"
-            android:text="Escribe tu apellido" />
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
 
         <TextView
             android:id="@+id/textView4"
@@ -63,8 +69,10 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe tu domicilio"
             android:inputType="textPersonName"
-            android:text="Escribe tu domicilio" />
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -77,8 +85,10 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe tu telefono"
             android:inputType="phone"
-            android:text="Escribe tu telefono" />
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -91,8 +101,10 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe tu email"
             android:inputType="textPersonName"
-            android:text="Escribe tu email" />
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
 
         <TextView
             android:id="@+id/textView7"
@@ -106,10 +118,12 @@
             android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Escribe un password"
             android:inputType="textPersonName"
-            android:text="Escribe un password"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="@color/edit_text_buttom_line"
+            android:textCursorDrawable="@null"/>
 
         <Button
             android:id="@+id/button"
@@ -118,7 +132,8 @@
             android:backgroundTint="@color/blue_button"
             android:text="Registrarme"
             android:textAlignment="center"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:onClick="mostrarPantallaPrincipal"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

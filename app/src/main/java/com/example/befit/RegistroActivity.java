@@ -13,4 +13,8 @@ public class RegistroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
     }
+    public void mostrarPantallaPrincipal(View view) {
+        Intent intent = new Intent( RegistroActivity.this, WelcomeActivity.class);
+        startActivity(intent);
+    }
 }
