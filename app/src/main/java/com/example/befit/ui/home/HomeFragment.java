@@ -1,6 +1,7 @@
 package com.example.befit.ui.home;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,6 +37,18 @@ public class HomeFragment extends Fragment {
 
                 Intent intent = homeViewModel.GoToFacebook(view.getContext());
                 startActivity(intent);
+            }
+        });
+
+        final Button btnGoToWhats = binding.btnGoToWhats;
+        btnGoToWhats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://api.whatsapp.com/send?phone=+524494334703";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+
             }
         });
         return root;

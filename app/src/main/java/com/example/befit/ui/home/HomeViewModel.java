@@ -38,4 +38,25 @@ public class HomeViewModel extends ViewModel {
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
+
+/*
+    private void openWhatsApp(String numero,String mensaje){
+
+        try{
+            PackageManager packageManager = getActivity().getPackageManager();
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            String url = "https://api.whatsapp.com/send?phone="+ numero +"&text=" + URLEncoder.encode(mensaje, "UTF-8");
+            i.setPackage("com.whatsapp");
+            i.setData(Uri.parse(url));
+            if (i.resolveActivity(packageManager) != null) {
+                startActivity(i);
+            }else {
+                KToast.errorToast(getActivity(), getString(R.string.no_whatsapp), Gravity.BOTTOM, KToast.LENGTH_SHORT);
+            }
+        } catch(Exception e) {
+            Log.e("ERROR WHATSAPP",e.toString());
+            KToast.errorToast(getActivity(), getString(R.string.no_whatsapp), Gravity.BOTTOM, KToast.LENGTH_SHORT);
+        }
+
+    }*/
 }
