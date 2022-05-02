@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                                     String name = object.getString("name");
                                     String email = object.getString("email");
                                     Toast.makeText(LoginActivity.this, "Bienvenid@ " + name, Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(LoginActivity.this, BienvenidoActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, WelcomeActivity.class);
                                     startActivity(intent);
                                 } catch (Exception ex){
 

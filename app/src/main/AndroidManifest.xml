@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeFit">
         <activity
-            android:name=".activity.inicioActivity"
+            android:name=".WelcomeActivity"
             android:exported="false"
-            android:label="@string/title_activity_inicio"
+            android:label="@string/title_activity_welcome"
             android:theme="@style/Theme.BeFit.NoActionBar" />
 
         <meta-data
@@ -37,7 +37,6 @@
         <activity
             android:name=".RegistroActivity"
             android:parentActivityName=".LoginActivity" />
-        <activity android:name=".BienvenidoActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
