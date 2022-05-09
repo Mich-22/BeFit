@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        tools:layout_editor_absoluteX="-59dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFEFE"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            tools:layout_editor_absoluteY="94dp"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#03A9F4"
+            android:backgroundTintMode="src_over"
+            android:text="Nuevos"
+            android:textSize="18sp"
+            app:cornerRadius="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/Widget.AppCompat.Button.Colored"
+            tools:layout_editor_absoluteY="166dp"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#03A9F4"
+            android:backgroundTintMode="src_over"
+            android:text="En proceso"
+            android:textSize="18sp"
+            app:cornerRadius="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="416dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#FDFFFD"
+            android:backgroundTint="#B0DD7A"
+            android:text="Lista de pedidos"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#B0DD7A"
+            android:drawableRight="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="#B0DD7A"
+            android:drawableLeft="@drawable/cart_shop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No hay pedidos"
+            android:textAlignment="center"
+            android:textColor="#333347"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="646dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
