@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="718dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:foregroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".RegistroActivity">
+
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="410dp"
+            android:layout_height="68dp"
+            android:backgroundTint="#E47D5D"
+            android:backgroundTintMode="multiply"
+            android:drawableRight="@drawable/usuario"
+            android:text="Actualiza tus datos personales"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="416dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#B0DD7A"
+            android:backgroundTint="#B0DD7A"
+            android:text="Mi perfil"
+            android:textColor="#FAF7F7"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="#B0DD7A"
+            android:drawableRight="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_height="490dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.933">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/edit_text_buttom_line"
+                android:ems="10"
+                android:hint="Escribe tu nombre"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@null" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:text="Apellidos" />
+
+            <EditText
+                android:id="@+id/txtApellido"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/edit_text_buttom_line"
+                android:ems="10"
+                android:hint="Escribe tu apellido"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@null" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:text="Telefono" />
+
+            <EditText
+                android:id="@+id/txtTelefono"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/edit_text_buttom_line"
+                android:ems="10"
+                android:hint="Escribe tu telefono"
+                android:inputType="phone"
+                android:textCursorDrawable="@null" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:text="E-mail" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/edit_text_buttom_line"
+                android:ems="10"
+                android:hint="Escribe tu email"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@null" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/blue_button"
+                android:onClick="mostrarPantallaPrincipal"
+                android:text="Guardar"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="416dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#B0DD7A"
+            android:backgroundTint="#B0DD7A"
+            android:drawableLeft="@drawable/menu"
+            android:text="Bienvenido a Be Fit"
+            android:textAlignment="center"
+            android:textColor="#FAF7F7"
+            android:textSize="18sp"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bienvenidaImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bienvenida" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="377dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#FE5000"
+            android:text="Contactanos"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <Button
+            android:id="@+id/btnGoToFB"
+            android:layout_width="267dp"
+            android:layout_height="51dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Facebook"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="604dp" />
+
+        <Button
+            android:id="@+id/btnGoToWhats"
+            android:layout_width="266dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#99EF35"
+            android:text="whatsapp"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
