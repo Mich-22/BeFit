@@ -29,13 +29,13 @@
             android:id="@+id/button25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="8dp"
             android:backgroundTint="#27333E"
             android:text="Cancelar"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.788"
+            app:layout_constraintHorizontal_bias="0.796"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -163,13 +163,13 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="8dp"
             android:backgroundTint="#27333E"
             android:text="Continuar"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.246"
+            app:layout_constraintHorizontal_bias="0.265"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button

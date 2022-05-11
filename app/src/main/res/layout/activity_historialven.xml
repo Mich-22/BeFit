@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button35"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#03A9F4"
+        android:backgroundTintMode="src_over"
+        android:text="Situacion"
+        android:textSize="18sp"
+        app:cornerRadius="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="416dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#B0DD7A"
+        android:text="Administrar productos"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B0DD7A"
+        android:drawableRight="@drawable/arrow_back"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B0DD7A"
+        android:drawableLeft="@drawable/cart_shop"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="316dp"
+        android:layout_height="303dp"
+        android:backgroundTint="#9F1616"
+        android:foregroundTint="#AE8383"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+        android:indeterminateOnly="true"
+        android:indeterminateTint="#504F4F"
+        android:progressTint="@color/black"
+        android:progressTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:text="1,453% total"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#8BC34A"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#FB7A7A"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="140dp"
+        android:backgroundTint="#3E55CA"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="268dp"
+        android:backgroundTint="#79B5F4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:text="80%                                                                                           Enero"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:text="100%                                                                                            Febrero"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:text="147%                                                                                                                                Marzo"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:text="1,126%                                                                                      Abril"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="202dp"
+        android:layout_height="108dp"
+        android:text="Ganancias                                                                                                                                                       Enero: $300,000                                                                                      Febrero: $365,978                                                                                                                       Marzo:$542.000                                                                                                                   Abril: $576,233"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

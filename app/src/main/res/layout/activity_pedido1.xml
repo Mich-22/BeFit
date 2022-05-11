@@ -13,6 +13,44 @@
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="-46dp">
 
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="416dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#FFFFFE"
+            android:backgroundTint="#B0DD7A"
+            android:text="Pago"
+            android:textColor="#FDFDFD"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="#B0DD7A"
+            android:drawableLeft="@drawable/cart_shop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B0DD7A"
+            android:drawableRight="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/textView11"
             android:layout_width="101dp"
@@ -85,7 +123,8 @@
             android:id="@+id/checkBox"
             android:layout_width="412dp"
             android:layout_height="37dp"
-            android:checked="false"
+            android:buttonTint="#EA6D6D"
+            android:checked="true"
             android:text="Envio a domicilio y pagar con Paypal"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -98,8 +137,8 @@
             android:id="@+id/checkBox7"
             android:layout_width="408dp"
             android:layout_height="30dp"
-            android:buttonTint="#E65555"
-            android:checked="true"
+            android:buttonTint="#353333"
+            android:checked="false"
             android:text="Enviar a domicilio y pagar al recibir"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -169,17 +208,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Be fit                                                                                      Estimado cliente!                                                                            Su pedido se ha hecho con exito!                                                                                           Su pedido llegara en 10 min"
-            android:textAlignment="center"
-            android:textColor="#0B0A0A"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-4dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
