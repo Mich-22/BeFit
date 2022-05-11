@@ -18,7 +18,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -30,7 +31,8 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="55dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumberPassword"
@@ -40,7 +42,8 @@
         android:inputType="numberPassword"
         android:text="Papayl"
         tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="343dp" />
+        tools:layout_editor_absoluteY="343dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextDate"
@@ -50,7 +53,8 @@
         android:inputType="date"
         android:text="Fecha de expiracion:"
         tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteY="283dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -60,7 +64,8 @@
         android:inputType="number"
         android:text="Ingresa el numero de tarjeta:"
         tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -70,7 +75,8 @@
         android:inputType="textPersonName"
         android:text="Nombre y apellido:"
         tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="215dp" />
+        tools:layout_editor_absoluteY="215dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button5"
@@ -80,7 +86,8 @@
         android:text="Continuar comprando"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button9"
@@ -89,6 +96,7 @@
         android:background="@drawable/ic_flecha_atras"
         android:backgroundTint="#FFFFFF"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="12dp" />
+        tools:layout_editor_absoluteY="12dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
