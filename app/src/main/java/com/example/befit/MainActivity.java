@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     public void goToLogin() {
         Intent intent = new Intent(this, LoginActivity.class);
         handler.postDelayed(new Runnable() {
