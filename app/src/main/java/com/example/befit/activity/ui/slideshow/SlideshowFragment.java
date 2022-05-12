@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.befit.databinding.FragmentSlideshowBinding;
+import com.example.befit.ui.slideshow.SlideshowViewModel;
 
 
 public class SlideshowFragment extends Fragment {

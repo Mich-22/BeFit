@@ -40,11 +40,11 @@
             android:layout_width="78dp"
             android:layout_height="62dp"
             android:backgroundTint="#FFFFFF"
-            android:tint="#000000"
             app:srcCompat="@drawable/ic_baseline_restaurant_menu_24"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="58dp"
-            tools:layout_editor_absoluteY="64dp" />
+            tools:layout_editor_absoluteY="64dp"
+            app:tint="#000000" />
 
         <ImageButton
             android:id="@+id/imageButton2"

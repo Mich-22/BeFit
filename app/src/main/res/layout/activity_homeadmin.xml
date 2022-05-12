@@ -50,7 +50,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.47"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="540dp" />
+            tools:layout_editor_absoluteY="540dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/btnGoToFB"
@@ -62,7 +63,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="604dp" />
+            tools:layout_editor_absoluteY="604dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/btnGoToWhats"

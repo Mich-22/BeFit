@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.befit.databinding.FragmentGalleryBinding;
+import com.example.befit.ui.gallery.GalleryViewModel;
 
 
 public class GalleryFragment extends Fragment {
