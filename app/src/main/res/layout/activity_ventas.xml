@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.47"
-        app:srcCompat="@drawable/Grafica" />
+        app:srcCompat="@drawable/grafica" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -84,5 +84,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
-        app:srcCompat="@drawable/Text" />
+        app:srcCompat="@drawable/text" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -61,6 +61,7 @@
         <activity android:name=".pedido4Activity"/>
         <activity android:name=".TarjetaActivity"/>
         <activity android:name=".ListaDePedidos2Activity"/>
+        <activity android:name=".FragmentSliderShowActivity"/>
         <activity
             android:name=".RegistroActivity"
             android:parentActivityName=".LoginActivity"/>
