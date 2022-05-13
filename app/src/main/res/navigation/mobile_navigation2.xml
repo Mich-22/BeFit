@@ -22,4 +22,9 @@
         android:name="com.example.befit.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/comidaFragment"
+        android:name="com.example.befit.ComidaActivity"
+        android:label="fragment_comida"
+        tools:layout="@layout/fragment_comida" />
 </navigation>

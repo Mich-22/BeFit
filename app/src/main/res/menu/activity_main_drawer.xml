@@ -17,15 +17,19 @@
             android:icon="@drawable/ic_info"
             android:title="Informacion" />
         <item
-            android:id="@+id/nav_ubi"
-            android:icon="@drawable/ic_location"
-            android:title="Como llegar" />
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_restaurant_menu_24"
+            android:title="Menu" />
         <item
             android:id="@+id/nav_config"
             android:icon="@drawable/ic_config"
             android:title="Configuracion" />
         <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+            android:title="Administrador" />
 
+        <item
             android:id="@+id/nav_cerrar"
             android:icon="@drawable/ic_user"
             android:title="Cerrar sesion" />
