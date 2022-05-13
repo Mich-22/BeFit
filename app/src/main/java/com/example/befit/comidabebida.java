@@ -17,7 +17,7 @@ public class comidabebida extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         /*FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);*/
-        setContentView(R.layout.comida);
+        setContentView(R.layout.fragment_comida);
     }
 
     public void mostrarBebidas(View view) {
