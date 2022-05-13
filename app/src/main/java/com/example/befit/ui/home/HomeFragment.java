@@ -34,7 +34,6 @@ public class HomeFragment extends Fragment {
         btnGoToFB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent intent = homeViewModel.GoToFacebook(view.getContext());
                 startActivity(intent);
             }

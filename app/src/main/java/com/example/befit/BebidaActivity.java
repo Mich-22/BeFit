@@ -9,20 +9,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.befit.ui.comida.ComidaFragment;
 
-public class comidabebida extends AppCompatActivity {
+public class BebidaActivity extends AppCompatActivity {
     final Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);*/
-        setContentView(R.layout.comida);
+        setContentView(R.layout.bebidas);
     }
 
     public void mostrarBebidas(View view) {
         // Do something in response to button click
-        Intent intent = new Intent(this, BebidaActivity.class);
+        Intent intent = new Intent(this, comidabebida.class);
         startActivity(intent);
     }
 }

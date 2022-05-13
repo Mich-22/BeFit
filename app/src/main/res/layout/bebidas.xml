@@ -3,14 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FFFFFF"
-        tools:layout_editor_absoluteX="-82dp"
-        tools:layout_editor_absoluteY="38dp">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:layout_editor_absoluteX="-82dp"
+    tools:layout_editor_absoluteY="38dp"
+    tools:context=".BebidaActivity">
 
         <Button
             android:id="@+id/button6"
@@ -46,34 +43,34 @@
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="78dp"
-            android:layout_height="62dp"
-            android:layout_marginBottom="592dp"
+            android:layout_width="74dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="580dp"
             android:backgroundTint="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="@+id/textView17"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintHorizontal_bias="0.207"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_bias="0.882"
             app:srcCompat="@drawable/ic_baseline_restaurant_menu_24"
             app:tint="#000000"
             tools:ignore="MissingConstraints" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imagBtnBebida"
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:backgroundTint="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.829"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.705"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.101"
+            app:layout_constraintVertical_bias="0.111"
             app:srcCompat="@drawable/ic_drink"
-            tools:ignore="MissingConstraints"
-            app:tint="#000000" />
+            app:tint="#000000"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView8"
@@ -416,5 +413,4 @@
             app:layout_constraintVertical_bias="0.218"
             app:srcCompat="@drawable/ic_add"
             tools:ignore="MissingConstraints" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

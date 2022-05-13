@@ -64,6 +64,7 @@
         <activity android:name=".FragmentSliderShowActivity"/>
         <activity android:name=".ComidaActivity"/>
         <activity android:name=".comidabebida"/>
+        <activity android:name=".BebidaActivity"/>
         <activity
             android:name=".RegistroActivity"
             android:parentActivityName=".LoginActivity"/>

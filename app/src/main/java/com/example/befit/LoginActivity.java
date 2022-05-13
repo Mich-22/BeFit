@@ -237,7 +237,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
     //endregion
 
-    public void mostrarPerfil(View view) {
+    public void mostrarFormularioRegistro(View view) {
         // Do something in response to button click
         Intent intent = new Intent(this, RegistroActivity.class);
         startActivity(intent);

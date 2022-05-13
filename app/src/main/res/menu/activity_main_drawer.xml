@@ -30,7 +30,7 @@
             android:title="Administrador" />
 
         <item
-            android:id="@+id/nav_cerrar"
+            android:id="@+id/nav_cerrarsesion"
             android:icon="@drawable/ic_user"
             android:title="Cerrar sesion" />
     </group>
