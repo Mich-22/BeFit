@@ -43,8 +43,8 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="377dp"
-            android:layout_height="54dp"
+            android:layout_width="142dp"
+            android:layout_height="50dp"
             android:backgroundTint="#FE5000"
             android:text="Contactanos"
             android:textColor="@color/white"
@@ -58,31 +58,31 @@
 
         <Button
             android:id="@+id/btnGoToFB"
-            android:layout_width="267dp"
-            android:layout_height="51dp"
+            android:layout_width="146dp"
+            android:layout_height="50dp"
             android:backgroundTint="#3F51B5"
             android:text="Facebook"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.473"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/button19"
-            app:layout_constraintVertical_bias="0.883"
+            app:layout_constraintVertical_bias="0.872"
             tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/btnGoToWhats"
-            android:layout_width="266dp"
-            android:layout_height="46dp"
+            android:layout_width="144dp"
+            android:layout_height="52dp"
             android:backgroundTint="#99EF35"
             android:text="whatsapp"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.475"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.976" />
+            app:layout_constraintVertical_bias="0.948" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,37 +20,40 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="377dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#FE5000"
         android:text="Contactanos"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bienvenidaImage" />
 
     <Button
         android:id="@+id/btnGoToFB"
-        android:layout_width="267dp"
-        android:layout_height="51dp"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#3F51B5"
         android:text="Facebook"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/btnGoToWhats"
-        android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#99EF35"
         android:text="whatsapp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnGoToFB" />
 </androidx.constraintlayout.widget.ConstraintLayout>
