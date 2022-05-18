@@ -9,13 +9,17 @@
     android:foregroundTint="#FFFFFF"
     tools:context=".RegistroActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-
         android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
         android:background="#B8C3FD"
         android:orientation="vertical"
         android:padding="15dp"
@@ -131,9 +135,12 @@
             android:layout_height="73dp"
             android:backgroundTint="@color/blue_button"
             android:text="Registrarme"
+            android:layout_marginBottom="50dp"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:onClick="mostrarPantallaPrincipal"/>
 
     </LinearLayout>
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
