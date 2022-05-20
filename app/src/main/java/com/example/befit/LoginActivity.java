@@ -47,6 +47,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+
 public class LoginActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener, View.OnClickListener {
 
     //region Facebook properties
@@ -98,6 +101,19 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                                     String name = object.getString("name");
                                     String email = object.getString("email");
                                     guardarUsusarioEnFirestore(name, email);
+
+
+                                    RealmConfiguration config = new RealmConfiguration.Builder()
+                                            .allowQueriesOnUiThread(true)
+                                            .allowWritesOnUiThread(true)
+                                            .build();
+                                    Realm backgroundThreadRealm = Realm.getInstance(config);
+                                    UserModel userModel = new UserModel(name, "",
+                                            "", email);
+                                    backgroundThreadRealm.executeTransaction (transactionRealm -> {
+                                        transactionRealm.insert(userModel);
+                                    });
+
                                     Toast.makeText(LoginActivity.this, "Bienvenid@ " + name, Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(LoginActivity.this, WelcomeActivity.class);
                                     startActivity(intent);

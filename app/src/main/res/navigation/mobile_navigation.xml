@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/nav_info"
         android:name="com.example.befit.ui.slideshow.SlideshowFragment"
-        android:label="Informacion"
+        android:label="Actualizar datos"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment

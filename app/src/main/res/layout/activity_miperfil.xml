@@ -3,20 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="421dp"
-        android:layout_height="731dp"
-        android:background="@color/white"
-        android:backgroundTint="@color/white"
-        android:foregroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:context=".RegistroActivity">
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:foregroundTint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0"
+    tools:context=".MiperfilActivity">
 
 
         <Button
@@ -36,36 +32,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.214" />
-
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="416dp"
-            android:layout_height="64dp"
-            android:background="#B0DD7A"
-            android:backgroundTint="#B0DD7A"
-            android:text="Mi perfil"
-            android:textColor="#FAF7F7"
-            android:textSize="20sp"
-            android:typeface="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#B0DD7A"
-            android:drawableRight="@drawable/arrow_back"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.048"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.007" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
@@ -91,7 +57,7 @@
                 android:text="Nombre" />
 
             <EditText
-                android:id="@+id/txtNombre"
+                android:id="@+id/txtNombre_upd"
                 android:layout_width="355dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/edit_text_buttom_line"
@@ -108,7 +74,7 @@
                 android:text="Apellidos" />
 
             <EditText
-                android:id="@+id/txtApellido"
+                android:id="@+id/txtApellido_upd"
                 android:layout_width="355dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/edit_text_buttom_line"
@@ -124,7 +90,7 @@
                 android:text="Telefono" />
 
             <EditText
-                android:id="@+id/txtTelefono"
+                android:id="@+id/txtTelefono_upd"
                 android:layout_width="355dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/edit_text_buttom_line"
@@ -140,11 +106,12 @@
                 android:text="E-mail" />
 
             <EditText
-                android:id="@+id/txtEmail"
+                android:id="@+id/txtEmail_upd"
                 android:layout_width="355dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/edit_text_buttom_line"
                 android:ems="10"
+                android:enabled="false"
                 android:hint="Escribe tu email"
                 android:inputType="textPersonName"
                 android:textCursorDrawable="@null" />
@@ -154,12 +121,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:backgroundTint="@color/blue_button"
-                android:onClick="mostrarPantallaPrincipal"
-                android:text="Guardar"
+                android:onClick="actualizarDatos"
+                android:text="Actualizar"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
 
         </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

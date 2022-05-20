@@ -18,6 +18,9 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+
 public class RegistroActivity extends AppCompatActivity {
     FirebaseFirestore db;
     TextView txtNombre;
@@ -72,6 +75,17 @@ public class RegistroActivity extends AppCompatActivity {
                     Log.w(TAG, "Error adding document", e);
                 }
             });
+
+        RealmConfiguration config = new RealmConfiguration.Builder()
+                .allowQueriesOnUiThread(true)
+                .allowWritesOnUiThread(true)
+                .build();
+        Realm backgroundThreadRealm = Realm.getInstance(config);
+        UserModel userModel = new UserModel(txtNombre.getText().toString(), txtApellido.getText().toString(),
+                txtTelefono.getText().toString(), txtEmail.getText().toString());
+        backgroundThreadRealm.executeTransaction (transactionRealm -> {
+            transactionRealm.insert(userModel);
+        });
 
         Intent intent = new Intent( RegistroActivity.this, WelcomeActivity.class);
         startActivity(intent);

@@ -11,6 +11,9 @@ import android.view.ViewGroup;
 
 import com.example.befit.ui.home.HomeFragment;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link CerrarSesionFragment#newInstance} factory method to
@@ -56,6 +59,18 @@ public class CerrarSesionFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
+        RealmConfiguration config = new RealmConfiguration.Builder()
+                .allowQueriesOnUiThread(true)
+                .allowWritesOnUiThread(true)
+                .build();
+        Realm backgroundThreadRealm = Realm.getInstance(config);
+        backgroundThreadRealm.executeTransaction (transactionRealm -> {
+            UserModel user = transactionRealm.where(UserModel.class).findFirst();
+            user.deleteFromRealm();
+        });
+
         Intent intent = new Intent(getActivity(), LoginActivity.class);
         startActivity(intent);
 

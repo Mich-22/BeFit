@@ -9,6 +9,10 @@ import android.os.Handler;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+import io.realm.RealmQuery;
+
 public class MainActivity extends AppCompatActivity {
     final Handler handler = new Handler();
 
@@ -20,16 +24,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         goToLogin();
 
+        Realm.init(getApplicationContext());
     }
 
 
 
     public void goToLogin() {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent loginIntent = new Intent(this, LoginActivity.class);
+
+        Intent welcomeIntent = new Intent(this, WelcomeActivity.class);
+
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(intent);
+                RealmConfiguration config = new RealmConfiguration.Builder()
+                        .allowQueriesOnUiThread(true)
+                        .allowWritesOnUiThread(true)
+                        .build();
+                Realm realm = Realm.getInstance(config);
+                RealmQuery<UserModel> usersQuery = realm.where(UserModel.class);
+                long usuariosEncontrados = usersQuery.count();
+                if (usuariosEncontrados > 0)
+                    startActivity(welcomeIntent);
+                else startActivity(loginIntent);
             }
         }, 1000);
 
