@@ -46,24 +46,23 @@
 
     <Button
         android:id="@+id/btnregistrarme"
-        android:layout_width="282dp"
-        android:layout_height="45dp"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
         android:backgroundTint="@color/white"
         android:onClick="mostrarFormularioRegistro"
         android:text="Registrarme"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/blue_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.777" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btngmail"
+        app:layout_constraintVertical_bias="0.134" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
-        android:layout_width="296dp"
-        android:layout_height="37dp"
+        android:layout_width="311dp"
+        android:layout_height="47dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
@@ -80,7 +79,7 @@
         android:layout_width="301dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
@@ -95,16 +94,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgbefit" />
-
-    <Button
-        android:id="@+id/sign_Out_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/status_textview" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

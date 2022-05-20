@@ -160,9 +160,9 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         signInButton.setOnClickListener(this);
 
 
-
+/*
         signOutButton = (Button) findViewById(R.id.sign_Out_Button);
-        signOutButton.setOnClickListener(this);
+        signOutButton.setOnClickListener(this);*/
 
         signInRequest = BeginSignInRequest.builder()
                 .setGoogleIdTokenRequestOptions(BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
@@ -221,9 +221,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 signIn();
 
 
-            case R.id.sign_Out_Button:
-                signOut();
-                break;
         }
     }
 

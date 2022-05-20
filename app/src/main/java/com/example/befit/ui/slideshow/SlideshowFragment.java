@@ -11,9 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.befit.MiperfilActivity;
 import com.example.befit.R;
 import com.example.befit.UserModel;
 import com.example.befit.databinding.FragmentSlideshowBinding;
