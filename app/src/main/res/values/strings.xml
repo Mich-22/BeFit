@@ -20,6 +20,7 @@
     <string name="title_activity_menu_admin">Menu_admin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button7">Button7</string>
 
 
 </resources>
